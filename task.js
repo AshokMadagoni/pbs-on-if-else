@@ -32,11 +32,11 @@ else{
 //booking a flight
 
 var ticket=+prompt("enter ticket cost:")
-var amount=500;
+// var amount=500;
 if(ticket<500){
-    var morningmeal=prompt("is providing morning meal:")
+    var morning=prompt("is providing morning:")
     var duringflightmeal=prompt("is providing meal during flight:")
-    if(morningmeal==="yes" || duringflightmeal==="yes"){
+    if(morning==="yes" || duringflightmeal==="yes"){
         console.log("buy it")
     }
     else{
